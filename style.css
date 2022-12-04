@@ -1,0 +1,56 @@
+   form{
+        display: flex;
+        flex-direction: column;
+        
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: rgb(33, 33, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 50%;
+    }   
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        padding: 10px;
+        float: left;
+        margin:0 ;
+        border: none;
+        font-size: 16px;
+        
+        border-radius: none;
+        outline: none;
+        
+    }
+span{
+    padding: 10px;
+    border-radius: none;
+    background-color: rgb(225, 233, 0);
+    cursor: pointer;
+
+
+}
+span:hover{
+    background-color: rgb(106, 110, 0);
+
+}
+h3{
+    color: white;
+}
+#h3{
+    color: black;
+}
+@media screen and (max-width: 1024px){
+form{
+    width: 100%;
+
+}
+#h3{
+    font-size: 0.8em;
+}
+}
